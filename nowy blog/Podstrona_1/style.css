@@ -1,0 +1,240 @@
+body {
+	height: 1000px;
+}
+
+header{
+	
+	height: auto;
+	width: 300px;
+	margin: 20px auto;
+	font-family: lato;
+	font-size:45px;
+}
+
+.bottom{
+	
+	margin: 5px auto 40px;
+	height: auto;
+	width: 300px;
+	text-align: center;
+
+}
+
+.menu{
+	margin: 10px auto;
+	height: auto;
+	width: 1000px;
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
+	text-align: center;
+
+}
+
+li{
+	display: inline;
+	padding: 5px 20px;
+}
+
+.sekcja{
+	float: left;
+	height: 600px;
+	width: 45%;
+	margin-left: 250px;
+	display: grid;
+	grid-template-columns: 310px 50%;
+	grid-template-rows: 300px 300px;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+	
+	
+}
+
+.siemano {
+	background-color: green;
+	height: 100px;
+}
+.obwoluta {
+	float: left;
+	width: 70%;
+	margin: 50px 50px 10px 200px;
+	display: grid;
+	grid-template-columns: 405px 60%;
+	grid-template-rows: 267px 267px 267px;
+	grid-template-areas: 
+		"div1 section1"
+		"div2 section2"
+		"div3 section3";
+	grid-row-gap: 20px;
+
+}
+.post {
+	background-color: blue;
+	background-image: url(images/photo1.jpg);
+	background-size: 600px auto;
+	position: relative;
+	text-align: center;
+}
+
+.post2{
+	background-color: green;
+	background-image: url(images/photo2.jpg);
+	background-size: 600px auto;
+	position: relative;
+	text-align: center;
+}
+.post3{
+	background-color: green;
+	background-image: url(images/photo3.jpg);
+	background-size: 600px auto;
+	position: relative;
+	text-align: center;
+}
+.post4{
+	background-color: green;
+	background-image: url(images/photo4.jpg);
+	background-size: 600px auto;
+	position: relative;
+	text-align: center;
+}
+
+.pierwszy{
+	background-color: black;
+	color: white;
+	position: absolute;
+	text-align: bottom;
+	bottom: 10px;
+	left: 20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.drugi{
+	background-color: black;
+	color: white;
+	position: absolute;
+	text-align: bottom;
+	bottom: 10px;
+	left: 20px;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.trzeci{
+	background-color: black;
+	color: white;
+	position: absolute;
+	text-align: bottom;
+	bottom: 10px;
+	left: 20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.czwarty{
+	background-color: black;
+	color: white;
+	position: absolute;
+	text-align: bottom;
+	bottom: 10px;
+	left: 20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.advert{
+	height: 300px;
+	width: 20%;
+	background-color: red;
+	float: right;
+	margin-right: 170px;
+}
+
+.obwoluta {
+	float: left;
+	width: 70%;
+	margin: 50px 50px 10px 200px;
+	display: grid;
+	grid-template-columns: 405px 60%;
+	grid-template-rows: 267px 267px 267px;
+	grid-template-areas: 
+		"div1 section1"
+		"div2 section2"
+		"div3 section3";
+	grid-row-gap: 20px;
+
+}
+
+
+.pierwszy_div {
+	grid-area: div1;
+	background: url("images/photo1.jpg");
+	background-repeat: no-repeat;
+	background-size: 405px 267px;
+
+}
+
+.pierwsza_sekcja {
+	grid-area: section1;
+	background-color: gray;
+	font-size: 30px;
+}
+.drugi_div {
+	grid-area: div2;
+	background: url("images/photo2.jpg");
+	background-repeat: no-repeat;
+	background-size: 405px 267px;
+}
+
+.druga_sekcja {
+	grid-area: section2;
+	background-color: gold;
+}
+.trzeci_div {
+	grid-area: div3;
+	background-color: yellow;
+}
+
+.trzecia_sekcja {
+	grid-area: section3;
+	background-color: brown;
+}
+
+.obraz_tlo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}
+
+.naglowek {
+	
+	width: 70%;
+	margin: 20px auto;	
+}
+
+.akapit_1{
+	
+	width: 70%;
+	margin: 20px auto;
+}
+
+.akapit_2{
+	
+	width: 70%;
+	margin: 20px auto;
+}
+
+.lista {
+	display: block;
+	width: 70%;
+	margin: 20px auto;
+
+}
+
+.bb-widget{
+	
+}
+
+.obraz_ksiazka {
+	margin-left: 650px;
+}

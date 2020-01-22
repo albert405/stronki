@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #f6f6f6;
+	font-family: 'Lora',serif;
+}
+
+header {
+	background: #88D026;
+	height: 66px;
+
+}
+
+header * {
+	color: white;
+}
+
+header .logo{
+	float: left;
+	height: inherit;
+	margin-left: 2em;
+}
+
+header .logo-text{
+	margin: 9px;
+	font-family: 'Candal', serif;
+}
+
+header .logo-text span{
+	color: #D7F1B4;
+}
+
+header ul {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+header ul li {
+	float: left; 
+	position: relative;
+}
+
+header ul li ul{
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width: 180px;
+	display: none;
+}
+
+header ul li:hover ul{
+	display: block;
+}
+
+header ul li ul li{
+	width: 100%;
+}
+header ul li ul li a{
+	padding: 10px;
+	background-color: white;
+	color: grey;
+}
+
+header ul li ul li a.logout{
+	color: red;
+}
+header ul li ul li a:hover{
+	background: grey;
+}
+
+
+header ul li a{
+	display: block;
+	padding: 21px;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+header ul li a:hover{
+	background: green;
+	transition: 0.5s;
+}
+
+/* Post Slider*/
+.post-slider{
+	border: 1px solid red;
+}
+
+.post-slider .post-wrapper{
+	width: 84%;
+	height: 350px;
+	margin: 0px auto;
+	overflow: hidden;
+	border: 1px dashed red;
+
+}
+
+.post-slider .post-wrapper .post{
+	height: 300px;
+	width: 300px;
+	margin: 0px 10px;
+	display: inline-block;
+	background-color: #05f7ff;
+}
+
+
+/* Post Slider*/

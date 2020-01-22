@@ -1,0 +1,40 @@
+body{
+	background-color: #A9D7D1;
+}
+h1{
+	text-align: center;
+	height: 40px;
+	margin: 0;
+}
+
+.pierwszy{
+	width: 900px;
+	height: 400px;
+	position: relative;
+	background-color: #FAFAFA;
+	left: 0;
+	top: 0px;
+	bottom: 0;
+	right: 0;
+	margin: 10px auto;
+}
+#which{
+	background-color: red;
+	width: 48%
+	float: left;
+
+}
+
+#describes{
+	background-color: blue;
+	width: 48%
+	float: right;
+}
+
+
+form{
+	text-align: center;
+	margin: 10px;
+}
+
+

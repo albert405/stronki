@@ -1,0 +1,112 @@
+
+
+.obwoluta {
+	width: auto;
+	margin-left: 250px;
+	display: grid;
+	grid-template-columns: 310px 310px 400px;
+	grid-template-rows: 300px 300px ;
+	grid-template-areas: 
+		"div1 section1 aside"
+		"div2 section2 test";
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+}
+
+
+.pierwszy_div {
+	grid-area: div1;
+	background: url("photo1.jpg");
+	background-repeat: no-repeat;
+	background-size: 526px 347px;
+
+}
+
+
+
+.pierwsza_sekcja {
+	grid-area: section1;
+	background: url("photo2.jpg");
+	background-repeat: no-repeat;
+	background-size: 526px 347px;
+	position: relative;
+}
+
+.advert{
+	grid-area: aside;
+	background-color: blue;
+	margin-left: 100px;
+}
+.drugi_div {
+	grid-area: div2;
+	background: url("photo2.jpg");
+	background-repeat: no-repeat;
+	background-size: 526px 347px;
+}
+
+.druga_sekcja {
+	grid-area: section2;
+	background: url("photo2.jpg");
+	background-repeat: no-repeat;
+	background-size: 526px 347px;
+}
+.trzeci_div {
+	grid-area: div3;
+	background-color: yellow;
+}
+
+footer{
+	background-color: blue;
+	margin-top: 20px;
+}
+
+.takie{
+
+	background-color: black;
+	color: white;
+	margin: 50px 100px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: : Calibri;
+	text-align: bottom;
+	bottom: 10px;
+}
+
+.drugi {
+	background-color: black;
+	margin: 500px 100px 10px 30px;
+	padding: 0;
+}
+
+header{
+	
+	height: auto;
+	width: 300px;
+	margin: 20px auto;
+	font-family: lato;
+	font-size:45px;
+}
+
+.bottom{
+	
+	margin: 5px auto 40px;
+	height: auto;
+	width: 300px;
+	text-align: center;
+
+}
+
+.menu{
+	margin: 10px auto;
+	height: auto;
+	width: 1000px;
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
+	text-align: center;
+
+}
+
+li{
+	display: inline;
+	padding: 5px 20px;
+}

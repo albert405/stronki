@@ -1,0 +1,123 @@
+body { 
+	
+}
+
+
+#pageHeader{
+	background-color: #88D026;
+	width: auto;
+	height: 75px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin: 0px;
+	font-family: Berlin Sans FB Demi;
+}
+
+.facebook{
+	text-align: right;
+	float: right;
+	background-color: white;
+	color: #88D026;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+#textHeader{
+	padding: 17px ;
+	
+}
+
+nav {
+	width: 84%;
+	height: 40px;
+	margin: 0px auto;
+	background-color: yellow;
+	border-bottom: solid black 1px;
+
+	
+
+}
+
+ul {
+	text-align: center;
+
+
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	box-shadow: 
+	padding: 0 30px;
+
+}
+
+ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #1e1e1e;
+	padding: 0 30px;
+}
+
+ul li a:hover{
+	color: blue;
+	border-bottom: solid black 1px;
+}
+
+
+img{
+	display: block;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: auto;
+
+
+}
+
+p{
+	font-size: 14px;
+	text-align: center;
+	margin:; 0px;
+	padding: 0px;
+}
+
+.opis{
+	font-size: 60px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.opis2{
+	text-align: center;
+	margin: 0px;
+	padding: 0 200px;
+	float: left;
+	
+}
+
+
+.post-slider{
+	border: 1px solid red;
+}
+
+.post-slider .post-wrapper{
+	border: 1px dashed red;
+	width: 84%;
+	height: 350px;
+	margin: 0px auto;
+
+}
+
+.post-slider .post-wrapper .post{
+	display: inline-block;
+	background-color: #05f7ff;
+}

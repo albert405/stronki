@@ -1,0 +1,63 @@
+*{
+	font-family: Century Gothic;
+	font-weight:bold;
+}
+
+body{
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,58,117,1) 100%);
+}
+
+.gorny{
+	border-bottom-width: 3px;
+	border-color: #fff;
+}
+
+ul{
+	margin-top: 20px;
+	margin-right: 20px;
+	list-style-type: none;
+
+}
+ul li {
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.menu{
+	float: right;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-left: 70px;
+}
+
+.stan{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.zl {
+	color: #008000;
+}
+
+.video{
+	padding-left: 300px;
+	padding-top: 150px;
+}
